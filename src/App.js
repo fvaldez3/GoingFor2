@@ -7,7 +7,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          This is a test to see if I can just push my branch to main and Git Page will update.
         </p>
         <a
           className="App-link"
