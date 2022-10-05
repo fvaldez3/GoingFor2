@@ -4,11 +4,12 @@ import {
   LogoSection,
   MenuSection,
   HamburgerSection,
+  HamburgerButton,
 } from "./navbarElements";
-import Logo from "../../logo/Logo";
+import Logo from "../logo/Logo";
 import NavLinks from "./NavLinks";
 import { useMediaQuery } from "react-responsive";
-import MobileNavLinks from "./MobileNavLinks";
+import { GoThreeBars } from "react-icons/go";
 
 function Navbar() {
   const isMobile = useMediaQuery({ maxWidth: 756 });
@@ -18,7 +19,13 @@ function Navbar() {
         <Logo />
       </LogoSection>
       <MenuSection>{!isMobile && <NavLinks />}</MenuSection>
-      <HamburgerSection>{isMobile && <MobileNavLinks />}</HamburgerSection>
+      <HamburgerSection>
+        {isMobile && (
+          <HamburgerButton>
+            <GoThreeBars size={45} color="000028" />
+          </HamburgerButton>
+        )}
+      </HamburgerSection>
     </NavbarContainer>
   );
 }

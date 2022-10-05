@@ -14,10 +14,13 @@ function NavLinks() {
           <Link href="#">Home</Link>
         </LinkItem>
         <LinkItem>
-          <Link href="#">About</Link>
+          <Link href="#">Articles</Link>
         </LinkItem>
         <LinkItem>
-          <Link href="#">Contact</Link>
+          <Link href="#">Rankings</Link>
+        </LinkItem>
+        <LinkItem>
+          <Link href="#">FFTools</Link>
         </LinkItem>
       </LinksWrapper>
     </NavLinksContainer>
