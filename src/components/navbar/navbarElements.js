@@ -1,5 +1,6 @@
 import styled from "styled-components"
-import {GoX} from "react-icons/go" 
+import {GoX} from "react-icons/go"
+import { Link as LinkR } from "react-router-dom"; 
 
 export const NavbarContainer = styled.div`
     width: 100%;
@@ -46,7 +47,7 @@ export const LinkItem = styled.li`
     }
 `;
 
-export const Link = styled.a`
+export const Link = styled(LinkR)`
     text-decoration: none;
     color: inherit;
     font-size: inherit;
@@ -85,8 +86,8 @@ export const MobileNavbarContainer = styled.aside`
     top: 0;
     left: 0;
     transition: 0.3s ease-in-out;
-    /*opacity: ${({isOpen}) => (isOpen ? "100%" : "0")};
-    top: ${({isOpen}) => (isOpen ? "0" : "-100%")};*/
+    opacity: ${({isOpen}) => (isOpen ? "100%" : "0")};
+    top: ${({isOpen}) => (isOpen ? "0" : "-100%")};
 `;
 
 export const CloseIcon = styled(GoX)`

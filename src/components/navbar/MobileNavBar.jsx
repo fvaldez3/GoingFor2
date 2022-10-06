@@ -6,20 +6,29 @@ import {
   MobileNavLink,
   MobileNavWrapper,
   MobileNavMenu,
+  Link,
 } from "./navbarElements";
 
-function MobileNavBar() {
+function MobileNavBar(props) {
   return (
-    <MobileNavbarContainer>
-      <Icon>
+    <MobileNavbarContainer isOpen={props.isOpen} onClick={props.toggle}>
+      <Icon onClick={props.toggle}>
         <CloseIcon size={38} />
       </Icon>
       <MobileNavWrapper>
         <MobileNavMenu>
-          <MobileNavLink href="#">Home</MobileNavLink>
-          <MobileNavLink href="#">Articles</MobileNavLink>
-          <MobileNavLink href="#">Rankings</MobileNavLink>
-          <MobileNavLink href="#">FFTools</MobileNavLink>
+          <MobileNavLink>
+            <Link to="/home">Home</Link>
+          </MobileNavLink>
+          <MobileNavLink>
+            <Link to="/articles">Articles</Link>
+          </MobileNavLink>
+          <MobileNavLink>
+            <Link to="/rankings">Rankings</Link>
+          </MobileNavLink>
+          <MobileNavLink>
+            <Link to="/fftools">FFTools</Link>
+          </MobileNavLink>
         </MobileNavMenu>
       </MobileNavWrapper>
     </MobileNavbarContainer>

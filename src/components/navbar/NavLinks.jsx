@@ -11,16 +11,16 @@ function NavLinks() {
     <NavLinksContainer>
       <LinksWrapper>
         <LinkItem>
-          <Link href="#">Home</Link>
+          <Link to="/home">Home</Link>
         </LinkItem>
         <LinkItem>
-          <Link href="#">Articles</Link>
+          <Link to="/articles">Articles</Link>
         </LinkItem>
         <LinkItem>
-          <Link href="#">Rankings</Link>
+          <Link to="/rankings">Rankings</Link>
         </LinkItem>
         <LinkItem>
-          <Link href="#">FFTools</Link>
+          <Link to="/fftools">FFTools</Link>
         </LinkItem>
       </LinksWrapper>
     </NavLinksContainer>
