@@ -11,7 +11,7 @@ function NavLinks() {
     <NavLinksContainer>
       <LinksWrapper>
         <LinkItem>
-          <Link to="/home">Home</Link>
+          <Link to="/">Home</Link>
         </LinkItem>
         <LinkItem>
           <Link to="/articles">Articles</Link>

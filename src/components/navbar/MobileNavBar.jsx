@@ -18,7 +18,7 @@ function MobileNavBar(props) {
       <MobileNavWrapper>
         <MobileNavMenu>
           <MobileNavLink>
-            <Link to="/home">Home</Link>
+            <Link to="/">Home</Link>
           </MobileNavLink>
           <MobileNavLink>
             <Link to="/articles">Articles</Link>
