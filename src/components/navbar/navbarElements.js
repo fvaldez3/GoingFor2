@@ -7,7 +7,6 @@ export const NavbarContainer = styled.div`
     height: 85px;
     display: flex;
     align-items: center;
-    padding: 0 1.5em;
     background: #000028
     }
 `;
