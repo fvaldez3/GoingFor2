@@ -10,15 +10,19 @@ import {
 } from "./navbarElements";
 
 function MobileNavBar(props) {
+  const closeMobileView = () => {
+    props.toggle();
+  };
+
   return (
-    <MobileNavbarContainer isOpen={props.isOpen} onClick={props.toggle}>
-      <Icon onClick={props.toggle}>
+    <MobileNavbarContainer isOpen={props.isOpen} onClick={closeMobileView}>
+      <Icon>
         <CloseIcon size={38} />
       </Icon>
       <MobileNavWrapper>
         <MobileNavMenu>
           <MobileNavLink>
-            <Link to="/">Home</Link>
+            <Link to="/GoingFor2">Home</Link>
           </MobileNavLink>
           <MobileNavLink>
             <Link to="/articles">Articles</Link>

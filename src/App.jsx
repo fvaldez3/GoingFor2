@@ -11,7 +11,7 @@ function App() {
     <React.Fragment>
       <Navbar></Navbar>
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/GoingFor2" element={<Home />} />
         <Route path="/articles" element={<Articles />} />
         <Route path="/rankings" element={<Rankings />} />
         <Route path="/fftools" element={<FFTools />} />
