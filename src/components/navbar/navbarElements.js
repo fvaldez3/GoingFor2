@@ -55,18 +55,19 @@ export const Link = styled(LinkR)`
 
 export const LogoSection = styled.div`
     display: flex;
+    flex: 1;
 `;
 
 export const MenuSection = styled.div`
     display: flex;
-    flex: 2;
     height: 100%;
     justify-content: center;
+    flex: 2;
 `;
 
 export const HamburgerSection = styled.div`
     display: flex;
-    flex:1;
+    flex: 1;
 `;
 
 export const HamburgerButton = styled.div`
@@ -126,10 +127,3 @@ export const MobileNavMenu = styled.ul`
     height: 100%;
     list-style: none;
 `;
-
-
-
-
-
-
-
