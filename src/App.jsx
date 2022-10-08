@@ -5,6 +5,7 @@ import Articles from "./pages/Articles";
 import Home from "./pages/Home";
 import FFTools from "./pages/FFTools";
 import Rankings from "./pages/Rankings";
+import Footer from "./components/footer/Footer";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path="/rankings" element={<Rankings />} />
         <Route path="/fftools" element={<FFTools />} />
       </Routes>
+      <Footer></Footer>
     </React.Fragment>
   );
 }
