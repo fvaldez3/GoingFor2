@@ -1,0 +1,22 @@
+.footer-container{
+    width: 100%;
+    background: #000028;
+    bottom: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: solid;
+    border-image-slice: 1;
+    border-width: 1px;
+    border-image-source: linear-gradient(to right, #BF953F, #FCF6BA, #B38728, #FBF5B7, #AA771C);
+}
+
+.footer-text{
+    text-align: center;
+    padding: 25px 0;
+    font-size: 14px;
+    font-weight: 500;
+    background: linear-gradient(to right, #BF953F, #FCF6BA, #B38728, #FBF5B7, #AA771C);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

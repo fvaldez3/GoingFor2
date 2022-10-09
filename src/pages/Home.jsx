@@ -1,7 +1,8 @@
 import React from "react";
+import AboutUs from "../components/home/AboutUs";
 
 function Home() {
-  return <h1>Home</h1>;
+  return <AboutUs></AboutUs>;
 }
 
 export default Home;

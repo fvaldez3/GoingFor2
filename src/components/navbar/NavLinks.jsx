@@ -1,29 +1,32 @@
 import React from "react";
-import {
-  NavLinksContainer,
-  LinksWrapper,
-  LinkItem,
-  Link,
-} from "./navbarElements";
-
+import "./navbar.css";
+import { Link } from "react-router-dom";
 function NavLinks() {
   return (
-    <NavLinksContainer>
-      <LinksWrapper>
-        <LinkItem>
-          <Link to="/GoingFor2">Home</Link>
-        </LinkItem>
-        <LinkItem>
-          <Link to="/articles">Articles</Link>
-        </LinkItem>
-        <LinkItem>
-          <Link to="/rankings">Rankings</Link>
-        </LinkItem>
-        <LinkItem>
-          <Link to="/fftools">FFTools</Link>
-        </LinkItem>
-      </LinksWrapper>
-    </NavLinksContainer>
+    <div className="navbar-links-container">
+      <ul className="navbar-links-list">
+        <li className="navbar-links-list-item">
+          <Link className="navbar-link" to="/GoingFor2">
+            Home
+          </Link>
+        </li>
+        <li className="navbar-links-list-item">
+          <Link className="navbar-link" to="/articles">
+            Articles
+          </Link>
+        </li>
+        <li className="navbar-links-list-item">
+          <Link className="navbar-link" to="/rankings">
+            Rankings
+          </Link>
+        </li>
+        <li className="navbar-links-list-item">
+          <Link className="navbar-link" to="/fftools">
+            FFTools
+          </Link>
+        </li>
+      </ul>
+    </div>
   );
 }
 

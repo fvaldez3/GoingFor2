@@ -1,16 +1,10 @@
 import React, { useState } from "react";
-import {
-  NavbarContainer,
-  LogoSection,
-  MenuSection,
-  HamburgerSection,
-  HamburgerButton,
-} from "./navbarElements";
 import Logo from "../logo/Logo";
 import NavLinks from "./NavLinks";
 import { useMediaQuery } from "react-responsive";
 import { GoThreeBars } from "react-icons/go";
 import MobileNavBar from "./MobileNavBar";
+import "./navbar.css";
 
 function Navbar() {
   const isMobile = useMediaQuery({ maxWidth: 756 });
@@ -24,19 +18,23 @@ function Navbar() {
 
   return (
     <React.Fragment>
-      <NavbarContainer>
-        <LogoSection>
+      <div className="navbar-container">
+        <div className="navbar-logo-section">
           <Logo />
-        </LogoSection>
-        <MenuSection>{!isMobile && <NavLinks />}</MenuSection>
-        <HamburgerSection>
-          {isMobile && (
-            <HamburgerButton onClick={toggleMobileView}>
+        </div>
+        {isMobile ? (
+          <div className="navbar-hamburger-section">
+            <div className="navbar-hamburger-button" onClick={toggleMobileView}>
               <GoThreeBars size={45} color="000028" />
-            </HamburgerButton>
-          )}
-        </HamburgerSection>
-      </NavbarContainer>
+            </div>
+          </div>
+        ) : (
+          <div className="navbar-menu-section">
+            <NavLinks />
+          </div>
+        )}
+      </div>
+
       <MobileNavBar
         isOpen={isMobileNavActive}
         toggle={toggleMobileView}
