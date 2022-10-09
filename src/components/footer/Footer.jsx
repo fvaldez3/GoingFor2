@@ -1,13 +1,13 @@
 import React from "react";
-import { FooterContainer, FooterText } from "./footerElements";
+import "./footer.css";
 
 function Footer() {
   return (
-    <FooterContainer>
-      <FooterText>
+    <div className="footer-container">
+      <div className="footer-text">
         Copyright info once we have something to copyright
-      </FooterText>
-    </FooterContainer>
+      </div>
+    </div>
   );
 }
 

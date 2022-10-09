@@ -1,5 +1,5 @@
 import React from "react";
-import LogoElements from "./logoElements";
+import "./logo.css";
 import { useNavigate } from "react-router-dom";
 
 function Logo() {
@@ -10,9 +10,9 @@ function Logo() {
   };
 
   return (
-    <LogoElements.LogoWrapper onClick={goHome}>
-      <LogoElements.LogoText>GOING FOR 2</LogoElements.LogoText>
-    </LogoElements.LogoWrapper>
+    <div className="logo-container" onClick={goHome}>
+      <h2 className="logo-text">GOING FOR 2</h2>
+    </div>
   );
 }
 

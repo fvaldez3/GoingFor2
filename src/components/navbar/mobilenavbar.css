@@ -1,0 +1,36 @@
+.mobile-nav-link-list{
+    padding-left: 25%;
+    display: block;
+    height: 100%;
+    list-style: none;
+}
+
+.mobile-nav-link-list-item{
+    font-weight: 500;
+    font-size: 30px;
+    justify-content: left;
+    margin-top: 25px;
+    background: linear-gradient(to right, #BF953F, #FCF6BA, #B38728, #FBF5B7, #AA771C);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.mobile-nav-close-icon{
+    color: #000028;
+    background: linear-gradient(to right, #BF953F, #FCF6BA, #B38728, #FBF5B7, #AA771C);
+}
+
+.mobile-nav-icon-container{
+    position: absolute;
+    top: 1.2rem;
+    right:1.5rem;
+    font-size: 2rem;
+    cursor: pointer;
+    outline: none;
+}
+
+.mobile-nav-link{
+    text-decoration: none;
+    color: inherit;
+    font-size: inherit;
+}
