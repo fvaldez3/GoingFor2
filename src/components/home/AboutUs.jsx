@@ -35,10 +35,10 @@ function AboutUs() {
             <br></br>
             <br></br>
             My Goal: I have a very particular set of skills... skills that make
-            me a nightmare for people like your fantasy opponent. I have playing
-            fantasy football since freshman year in high school(2009). I play in
-            5-10 leagues of all types every year. I want to give you the same
-            process I use to make calculated risk to win it all.
+            me a nightmare for people like your fantasy opponent. I have been
+            playing fantasy football since freshman year in high school(2009). I
+            play in 5-10 leagues of all types every year. I want to give you the
+            same process I use to make calculated risk to win it all.
           </p>
         </div>
         <div className="person-card">
