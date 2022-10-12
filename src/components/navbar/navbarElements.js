@@ -14,3 +14,16 @@ export const MobileNavbarContainer = styled.aside`
     opacity: ${({isOpen}) => (isOpen ? "100%" : "0")};
     top: ${({isOpen}) => (isOpen ? "0" : "-100%")};
 `;
+
+export const NavBarContainer = styled.div`
+    width: 100%;
+    height: 85px;
+    display: flex;
+    align-items: center;
+    background: ${({scrollNav}) => (scrollNav ? "#000028" : "transparent")};
+    position: sticky;
+    top: 0px;
+    z-index: 2;
+    margin-top:-85px;
+    transition: all 0.2s ease-in-out;
+`;

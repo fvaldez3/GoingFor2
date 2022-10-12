@@ -1,14 +1,3 @@
-.navbar-container{
-    width: 100%;
-    height: 85px;
-    display: flex;
-    align-items: center;
-    background: #000028;
-    position: sticky;
-    top: 0px;
-    border-bottom: 1px solid #000
-}
-
 .navbar-logo-section{
     display: flex;
     margin-left: 15px;

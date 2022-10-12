@@ -18,7 +18,6 @@
     width: 100%;
     height: 100%;
     overflow: hidden;
-
 }
 
 .welcome-background-video{
@@ -94,11 +93,8 @@
     background: linear-gradient(to right, #BF953F, #FCF6BA, #B38728, #FBF5B7, #AA771C);
     background-clip: text;
     -webkit-text-fill-color: transparent;
-    white-space: nowrap;
     padding: 14px 48px;
-    color: #000028;
     font-size: 20px;
-    outline: none;
     border: solid;
     border-image-slice: 1;
     border-width: 2px;
@@ -111,7 +107,7 @@
 }
 
 .welcome-button:hover{
-    font-size: 25px;
+    font-size: 23px;
 }
 
 .welcome-link{
