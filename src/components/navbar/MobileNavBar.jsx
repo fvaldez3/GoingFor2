@@ -22,6 +22,11 @@ function MobileNavBar(props) {
             </Link>
           </li>
           <li className="mobile-nav-link-list-item">
+            <Link className="mobile-nav-link" to="/podcasts">
+              Podcasts
+            </Link>
+          </li>
+          <li className="mobile-nav-link-list-item">
             <Link className="mobile-nav-link" to="/articles">
               Articles
             </Link>
