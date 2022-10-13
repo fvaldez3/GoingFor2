@@ -1,11 +1,11 @@
 import React from "react";
 
-function FFTools() {
+function Podcasts() {
   return (
     <div className="coming-soon-container">
-      <h1>FFTools coming soon!</h1>
+      <h1>Podcasts coming soon!</h1>
     </div>
   );
 }
 
-export default FFTools;
+export default Podcasts;

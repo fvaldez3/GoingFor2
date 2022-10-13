@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import "./welcome.css";
 import Video from "./videos/siteBackground.mp4";
-import { Link } from "react-router-dom";
 
 function Welcome() {
   const [isHover, setIsHover] = useState(false);
@@ -23,18 +22,11 @@ function Welcome() {
         ></video>
       </div>
       <div className="welcome-content">
-        <h1 className="welcome-header">GOING FOR 2</h1>
+        <h1 className="welcome-header">Welcome!</h1>
         <p className="welcome-message">
-          Lets get you a RING! Checkout our{" "}
-          <Link className="welcome-link" to="/rankings">
-            Rankings
-          </Link>{" "}
-          or our{" "}
-          <Link className="welcome-link" to="/articles">
-            Premium Articles
-          </Link>{" "}
-          free of charge! Support us on Patreon where there will be exclusive
-          benefits waiting for you.
+          Thank you for coming to our site! Now, lets get you a RING! Support us
+          on Patreon where there will be exclusive benefits waiting for you.
+          Scroll down to learn about us and our aspirations!
         </p>
         <div className="welcome-button-wrapper">
           <button

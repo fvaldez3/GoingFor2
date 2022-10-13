@@ -11,6 +11,11 @@ function NavLinks() {
           </Link>
         </li>
         <li className="navbar-links-list-item">
+          <Link className="navbar-link" to="/podcasts">
+            Podcasts
+          </Link>
+        </li>
+        <li className="navbar-links-list-item">
           <Link className="navbar-link" to="/articles">
             Articles
           </Link>

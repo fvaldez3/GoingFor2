@@ -11,7 +11,7 @@ function Logo() {
 
   return (
     <div className="logo-container" onClick={goHome}>
-      <h2 className="logo-text">GOING FOR 2</h2>
+      <h2 className="logo-text">No Name Yet</h2>
     </div>
   );
 }
